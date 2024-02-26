@@ -10,4 +10,8 @@ export default defineConfig({
     outDir: "../docs",
     // minify: false,
   },
+  // instead of having absolute paths pointing at assets in `index.html`, use
+  // relative paths. Works better with github pages where /assets/foobar.js
+  // referes to another site
+  base: "./",
 });
