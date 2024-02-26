@@ -26,32 +26,32 @@ function App() {
         <br />
         Library Template
       </h1>
-      <p>
-        <p>
-          <a href="https://github.com/mrkev/new-react-ts-lib">
-            github.com/mrkev/new-react-ts-lib
-          </a>
-        </p>
 
-        <GitHubButton
-          href="https://github.com/mrkev/new-react-ts-lib"
-          data-color-scheme="no-preference: light; light: light; dark: dark;"
-          data-icon="octicon-star"
-          data-size="large"
-          aria-label="Star mrkev/new-react-ts-lib on GitHub"
-        >
-          Star
-        </GitHubButton>
-        <GitHubButton
-          href="https://github.com/mrkev/new-react-ts-lib/generate"
-          data-color-scheme="no-preference: light; light: light; dark: dark;"
-          data-icon="octicon-repo-template"
-          data-size="large"
-          aria-label="Use this template mrkev/new-react-ts-lib on GitHub"
-        >
-          Use this template
-        </GitHubButton>
+      <p>
+        <a href="https://github.com/mrkev/new-react-ts-lib">
+          github.com/mrkev/new-react-ts-lib
+        </a>
       </p>
+
+      <GitHubButton
+        href="https://github.com/mrkev/new-react-ts-lib"
+        data-color-scheme="no-preference: light; light: light; dark: dark;"
+        data-icon="octicon-star"
+        data-size="large"
+        aria-label="Star mrkev/new-react-ts-lib on GitHub"
+      >
+        Star
+      </GitHubButton>
+      <GitHubButton
+        href="https://github.com/mrkev/new-react-ts-lib/generate"
+        data-color-scheme="no-preference: light; light: light; dark: dark;"
+        data-icon="octicon-repo-template"
+        data-size="large"
+        aria-label="Use this template mrkev/new-react-ts-lib on GitHub"
+      >
+        Use this template
+      </GitHubButton>
+
       {/* Instructions */}
       <h2 className="left">Getting Started</h2>
       <ol style={{ textAlign: "left" }}>
