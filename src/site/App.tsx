@@ -1,8 +1,7 @@
 import { useState } from "react";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import { add } from "..";
 import GitHubButton from "react-github-btn";
+import { add } from "..";
+import "./App.css";
 
 const FOLDER_STRUCTURE = `dist/            built library, gitignored
 docs/            built website, configure GH Pages to point here
@@ -14,9 +13,7 @@ src/
   index.ts       library entry file
 `;
 
-const a = 2;
-
-function App() {
+export function App() {
   const [count, setCount] = useState(0);
 
   return (
@@ -131,5 +128,3 @@ function App() {
     </>
   );
 }
-
-export default App;
