@@ -52,9 +52,14 @@ export default tseslint.config(
       },
     },
 
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
+
     rules: {
       "react/no-unescaped-entities": "off",
-
       "react-refresh/only-export-components": [
         "warn",
         {
