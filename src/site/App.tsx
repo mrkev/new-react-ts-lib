@@ -14,6 +14,8 @@ src/
   index.ts       library entry file
 `;
 
+const a = 2;
+
 function App() {
   const [count, setCount] = useState(0);
 
