@@ -31,30 +31,30 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react": "^7.37.5",
     "jsdom": "^26.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "vite-plugin-dts": "^4.5.0",
-    "vitest": "^2.1.8"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "vite-plugin-dts": "^4.5.3",
+    "vitest": "^3.1.1"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.5",
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.18.0",
-    "@types/eslint__js": "^8.42.3",
-    "@types/node": "^22.10.5",
-    "@types/react": "^19.0.4",
-    "@types/react-dom": "^19.0.2",
-    "@typescript-eslint/parser": "^8.19.1",
+    "@eslint/compat": "^1.2.8",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.24.0",
+    "@types/eslint__js": "^9.14.0",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "@typescript-eslint/parser": "^8.29.1",
     "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.18.0",
+    "eslint": "^9.24.0",
     "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.16",
-    "globals": "^15.14.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
     "react-github-btn": "^1.4.0",
-    "typescript": "^5.7.3",
-    "typescript-eslint": "^8.19.1",
-    "vite": "^6.0.7"
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.1",
+    "vite": "^6.2.5"
   }
 }
